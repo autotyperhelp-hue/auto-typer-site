@@ -79,6 +79,9 @@ h2 { font-size: clamp(28px, 3.6vw, 40px); line-height: 1.15; letter-spacing: -.0
 .plan li.no::before { border-color: #3a3a44; }
 .plan-note { margin: 12px 0 0; font-size: 13px; color: var(--dim); text-align: center; }
 
+/* pre-launch stand-in for "Add to Chrome": clearly a label, not a button */
+.btn-soon { background: transparent; border: 1px dashed rgba(255,122,69,.6); color: #ffb08f; cursor: default; }
+
 /* ---------------------------------------------------------------- faq */
 .faq { max-width: 780px; margin-top: 36px; }
 details { border-bottom: 1px solid var(--line); padding: 18px 0; }
